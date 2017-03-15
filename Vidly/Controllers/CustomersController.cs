@@ -45,6 +45,11 @@ namespace Vidly.Controllers
 
             return View(customer);
         }
+        //mvcation4 tab
+        public ActionResult New()
+        {
+            return View();
+        }
 
         //private IEnumerable<Customer> GetCustomers()
         //{
